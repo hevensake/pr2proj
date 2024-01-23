@@ -1,0 +1,135 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url('../img/picq.jpg');
+  background-size: cover;
+  background-position: top;
+  background-repeat: no-repeat;
+  color: #fff;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  background-color: #134f99;
+  padding: 10px;
+}
+
+.logo img {
+  margin-right: 20px;
+  height: 50px; 
+}
+
+nav {
+  padding: 10px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.links li {
+  margin-left: 20px;
+}
+
+.links a {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.links a:hover {
+  color: #ffd700; 
+}
+
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: #134f99;
+  color: #fff;
+}
+
+.edit-btn {
+  background-color: #134f99;
+  color: #fff;
+  padding: 8px 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.edit-btn:hover {
+  background-color: #134f99; 
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(82, 82, 82, 0.514);
+  padding: 20px;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.popup label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.popup input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.popup button {
+  background-color: #134f99;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.popup button:hover {
+  background-color: #134f99;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: #1f72d6;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.user-heading {
+ text-align: center;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home Page</title>
+  <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+  <div class="container">
+  <h1 class="head">Schedule</h1>
+  <button class="logout"><a href="index.html">Log Out</a></button>
+
+  <form id="scheduleForm">
+    <div>
+      <label for="Time">Time:</label>
+      <input type="time" id="Time" required>
+    </div>
+    <div>
+      <label for="Monday">Monday:</label>
+      <input type="text" id="Monday" required>
+    </div>
+    <div>
+      <label for="Tuesday">Tuesday:</label>
+      <input type="text" id="Tuesday" required>
+    </div>
+    <div>
+      <label for="Wednesday">Wednesday:</label>
+      <input type="text" id="Wednesday" required>
+    </div>
+    <div>
+      <label for="Thursday">Thursday:</label>
+      <input type="text" id="Thursday" required>
+    </div>
+    <div>
+      <label for="Friday">Friday:</label>
+      <input type="text" id="Friday" required>
+    </div>
+    <button type="button" onclick="addEvent()" id="button">Insert Row</button>
+    <div id="Schedule Display">
+      <h2 class="head">Schedule</h2>
+      <table id="scheduleTable" contenteditable="true">
+        <tr>
+          <th>Time</th>
+          <th>Monday</th>
+          <th>Tuesday</th>
+          <th>Wednesday</th>
+          <th>Thursday</th>
+          <th>Friday</th>
+        </tr>
+      </table>
+    </div>
+  </form>
+</div>
+
+  <script src="js/home.js"></script>
+</body>
+</html>

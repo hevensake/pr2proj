@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>manage users</title>
+  <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+  
+    <div id="users">
+        <h2 class="user-heading">Users Management</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Username</th>
+                    <th>Password</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="userTableBody">
+            </tbody>
+        </table>
+    </div>
+
+    <div id="edit-users" class="popup">
+        <span class="close-btn" onclick="closePopup()">X</span>
+        <h2>Edit User</h2>
+        <label for="edit-username">Username:</label>
+        <input type="text" id="edit-username" readonly>
+        <label for="edit-password">New Password:</label>
+        <input type="password" id="edit-password">
+        <button onclick="saveChanges()">Save Changes</button>
+    </div>
+
+<script src="js/admin.js"></script>
+
+</body>
+</html>

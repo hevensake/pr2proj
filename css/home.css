@@ -1,0 +1,87 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('../img/picq.jpg');
+  background-size: cover;
+  background-position: center;
+  font-family: 'roboto', sans-serif;
+}
+
+.container{
+  position: fixed;
+  width: 90%;
+  height: 87vh;
+  display: inline;
+  justify-content: center;
+  align-items: center;
+  font-family: 'dosis';
+}
+
+.logout{
+  position: absolute;
+  top: 10px;
+  right: 0;
+  padding: 10px 20px;
+  text-transform: capitalize;
+  font-size: 16px;
+  color: #37abd1;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.classsched {
+  font-family: 'dosis';
+  font-size: 50px;
+  color: #fff;
+  font-weight: 800;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+}
+
+th {
+  background-color: #134f99;
+}
+
+button{
+  width: auto;
+  padding: 0 20px;
+  cursor: pointer;
+  margin-top: 10px auto 0;
+  background-color: #134f99;
+  color: #dddddd;
+}
+
+.head{
+  text-align: center;
+  font-size: 50px;
+}
+
+label, input{
+  margin-bottom: 10px;
+}
+
+input{
+  background-color: #37abd1;
+}

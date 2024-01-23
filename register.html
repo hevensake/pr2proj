@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Register Page</title>
+
+  <link rel="stylesheet" href="css/index.css">
+
+</head>
+<body>
+
+  <div class="alert-box">
+    <p class="alert">sheesh</p>
+  </div>
+  
+  <div class="form" onsubmit="return register()">
+    <h1 class="heading">Register</h1>
+    <form id="register">
+    <input type="text" placeholder="username" autocomplete="off" name="name" required>
+    <input type="email" placeholder="email" autocomplete="off" name="email" required>
+    <input type="password" placeholder="password" autocomplete="off" name="password" required>
+    <button type="submit" class="submit-btn">register</button>
+  </form>
+    <a href="index.html" class="link">Already have an account? Log in here</a>
+  </div>
+
+  <script src="js/register.js"></script>
+</body>
+</html>
